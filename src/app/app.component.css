@@ -1,0 +1,141 @@
+.nav{
+	background-color:blue;
+	height:80px;
+}
+.icon{
+	font-size: 25px;
+    color: white;
+	position: absolute;top: 35px;left: 30px;
+}
+.icon2{
+	color: yellow;
+    font-size: 37px;
+	position: absolute;top: 29px;left: 75px;
+}
+.left-nav{
+	float:left;
+	width:50%;
+	margin-top:10px;
+	margin-left:20px;
+}
+.right-nav{
+	float:left;
+	width:45%;
+	margin-top:25px;
+}
+.inp{
+	border-radius:20px;
+	position: absolute;top: 34px;right: 320px;
+	border:1px solid white;
+	width:200px;
+	height:17px;
+}
+.ima1{
+	border-radius:40px;
+	width:50px;
+	height:50px;
+	position: absolute;top: 20px;right:45px;
+}
+ul li{
+	list-style:none;
+	margin-top:30px;
+}
+ul li a{
+	text-decoration:none;
+	color:black;
+}
+ul li:hover{
+	background-color:blue;
+	color:white;
+	padding: 2px;
+}
+ul li a:hover{
+	color: white;
+}
+.inp1{
+	margin-top:20px;
+	margin-left:42px;
+	border-top-style:none;
+	border-bottom-style:none;
+	border-left-style:none;
+	border-right-style:none;
+}
+.left-side{
+	width:20%;
+	float:left;
+}
+.right-side{
+	width:65%;
+	float:left;
+	margin-left:20px;
+	margin-top:30px;
+}
+.sep{
+	background-color:#d9fcfb;
+	width:210px;
+	margin-top:-18px;
+	height:220px;
+}
+.mids{
+	background-color:#d2d8d8;
+	height:520px;
+	float:left;
+	width:4px;
+}
+.mid{
+	background-color:#e8f4f4;
+	height:625px;
+	float:left;
+	width:17px;
+}
+.inp2{
+	width:250px;
+	height:40px;
+	border-radius:5px;
+	border-block-start: inherit;
+	border-left-width:thin;
+	border-color:#a0deef;
+}
+.btns{
+	background-color:red;
+	color:white;
+	width:80px;
+	height:40px;
+	border-radius:10px;
+	position:absolute;
+	top:180px;
+	right:145px;
+}
+.btn1{
+	background-color:green;
+	color:white;
+	width:80px;
+	height:40px;
+	border-radius:10px;
+	position:absolute;
+	top:180px;
+	right:50px;
+}
+.tab{
+	float:left;
+	width:65%;
+}
+table{
+	width:975px;
+	margin-top:50px;
+	margin-left:40px;
+}
+table, th, td {
+  border: 1px solid #e8f4f4;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+table tr:nth-child(even) {
+  background-color: #d9fcfb;
+}
+table tr:nth-child(odd) {
+ background-color:#fff ;
+}
